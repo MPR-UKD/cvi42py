@@ -11,4 +11,4 @@ COPY . .
 RUN pip install --no-cache-dir numpy
 
 # Run cvi42py.py when the container launches
-ENTRYPOINT ["python", "./cvi42py.py"]
+ENTRYPOINT ["python", "src/cvi42py.py"]
